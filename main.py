@@ -7,7 +7,7 @@ bot = Client(
     bot_token=Config.BOT_TOKEN,
     api_id=Config.API_ID,
     api_hash=Config.API_HASH,
-    workers=50,
+    workers=10000,
     plugins=dict(root="plugins")
 )
 bot.start()
